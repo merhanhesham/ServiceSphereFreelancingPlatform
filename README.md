@@ -42,6 +42,7 @@ Categories and Sub-Categories: Both freelancers and clients can browse through c
 
 ### Administrative and Supportive Features
 - **Contracts Management**: Facilities for managing and viewing contracts between freelancers and clients.
+- **Payment Functionality with Stripe**: Freelancers can securely receive payments for their services through the integration of Stripe. This enables seamless transactions between clients and freelancers, providing a convenient and reliable payment solution within the platform.
 - **Categories and Sub-Categories**: Detailed listings of services categorized to aid in easier navigation and matching.
   
 ### Buggy (Error Handling)
