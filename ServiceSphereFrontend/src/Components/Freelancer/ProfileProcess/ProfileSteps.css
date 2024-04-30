@@ -1,0 +1,64 @@
+/* Form styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: larger;
+}
+
+.form-control {
+   
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not add to the width */
+}
+
+.form-group .form-control:focus {
+    border-color: #a855f7;
+    outline: none; /* Removes default focus outline and replaces it with border color */
+    box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2); /* Adds a soft glow effect */
+}
+.form-group .form-control::placeholder { 
+    color: #999;
+    opacity: 1;
+}
+
+.form-group .form-control:-ms-input-placeholder { 
+    color: #999;
+
+}
+
+.form-group .form-control::-ms-input-placeholder { 
+    color: #999;
+}
+
+.ProfileStepMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+
+  .step4img{
+    height: 80%;
+  }
+
+  .checkbox input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  .WhiteBackground{
+    background-color: white;
+  }

@@ -1,0 +1,144 @@
+/* Form styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: larger;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not add to the width */
+}
+
+.form-control:focus {
+    border-color: #a855f7;
+    outline: none; /* Removes default focus outline and replaces it with border color */
+    box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2); /* Adds a soft glow effect */
+}
+
+/* Button styles */
+.btn.profilebtn {
+    background-color: #a855f7; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn.profilebtn:hover {
+    background-color: #c9bad9; /* Darken button color on hover */
+}
+
+.box-div{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Further increased the alpha value for a darker shadow */
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #999;
+    opacity: 1; /* Override Firefox's default opacity */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #999;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #999;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .box-div {
+        padding: 1rem;
+    }
+
+    h2.fw-bold {
+        flex-direction: column; /* Stack icon and text vertically on smaller screens */
+    }
+}
+
+/* styles.css */
+.service-add-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.service-label-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* equivalent to mb-4 in Bootstrap */
+}
+
+.service-label {
+    margin-right: 12px; /* equivalent to me-3 in Bootstrap */
+}
+
+/* ServiceItemStyles.css */
+
+
+.blackbackground{
+    background-color: black;
+}
+
+
+.service-detail {
+    margin-bottom: 20px;
+    word-break: break-all
+     /* Shows '...' at the end where text is cut off */
+   
+}
+
+.service-detail strong {
+    font-weight: bold;
+}
+
+.service-detail span {
+    font-weight: normal;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.rounded-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0;
+}*/
+
+
+
+  /* Example of a standard black button style */
+
+
+.btn-black:hover {
+    background-color: #333;
+}
+
+.editProfileButtons button{
+    border-color:#a855f7;
+    background-color: white;
+}

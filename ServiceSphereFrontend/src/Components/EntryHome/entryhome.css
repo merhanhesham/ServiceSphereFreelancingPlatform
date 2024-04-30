@@ -1,0 +1,48 @@
+#entryhome .second-section{
+    background-color: black;
+}
+
+#entryhome .forth-section{
+    
+}
+
+#entryhome .third-section{
+    background-color: black;
+
+}
+
+.fsVeryLarge{
+    font-size: 90px;
+}
+
+ .fslarge{
+    font-size: 55px;
+ }
+ .certainmarginbottom{
+    margin-bottom: 150px;
+ }
+
+ .certainmargintop{
+    margin-top: 150px;
+ }
+/* entryhome.css */
+
+/* Styles for the arrows within the Slider component */
+.slider-container .slick-prev,
+.slider-container .slick-next {
+  width: 70px; /* Set the width of the arrows */
+  height: 70px; /* Set the height of the arrows */
+  background-color: transparent; /* Remove the background color */
+  top: calc(50% - 30px); /* Center vertically */
+  z-index: 1; /* Ensure arrows are above slides */
+}
+
+/* Styles for the arrow icons */
+.slider-container .slick-prev:before,
+.slider-container .slick-next:before {
+  color: #333; /* Set the color of the arrow icons */
+  font-size: 40px; /* Increase the font size for larger arrows */
+  line-height: 60px; /* Center the arrow icons vertically */
+}
+
+/* Additional styling to position the price on the button's right side */

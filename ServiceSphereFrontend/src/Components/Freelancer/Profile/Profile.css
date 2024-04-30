@@ -1,0 +1,47 @@
+body{
+    background-color: #fff;
+    
+}
+
+
+.social-media{
+    
+    width: 45px;
+    height: 45px;
+    border:  solid 3px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.social-media span:hover{
+    color: #9870ff;
+}
+.social-media span{
+    transition: 0.7s;
+}
+.box-div{
+    width: 70%;
+    min-height: 85%;
+
+}
+
+
+.LineBelowDiv{
+    
+    border-bottom: 1px solid #bcc5d3; 
+}
+.profilebtn {
+    background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%) !important; /* Makes the button background color #9870ff */
+    color: #fff !important; /* Makes the text color white */
+    font-weight: bold !important; /* Makes the text bold */
+  }
+
+.pill-button {
+    background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+ /* Button background color */
+    border: none; /* No border */
+    border-radius: 50rem; /* Pill shaped border-radius */
+    padding: 0.5rem 1.5rem; /* Top and bottom padding 0.5rem, left and right padding 1.5rem */
+    color: white; /* Text color */
+    font-size: 1rem; /* Adjust font size as needed */
+    text-transform: uppercase; /* Uppercase text */
+  }

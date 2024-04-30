@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #f4f4f4 !important;
+}
+
+/*.ProfileStep4{
+  background-color: red !important;
+}*/
+
+/*client navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff; 
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.navbar-logo {
+
+  margin-right: 1rem;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  background-color: white !important;
+}
+
+/*.search-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  margin-right: 1rem; 
+}
+
+.search-container {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end; 
+  border: 2px solid #ddd; 
+  border-radius: 22px; 
+  overflow: hidden; 
+}
+
+.search-container input {
+  
+  flex-grow: 1;
+  border: none; 
+  outline: none; 
+  padding: 0.5rem; 
+  margin-right: 1rem;
+}
+
+.search-dropdown {
+  display: flex; 
+  align-items: center; 
+  background: #fff;
+  border-left: 2px solid #ddd; 
+  padding: 0.5rem 1rem; 
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  padding: 0; 
+  margin-left: 20px; 
+
+
+
+
+.icon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}*/
+
+/* Add any additional styles, such as responsive design */
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+  }
+}
+/*client navbar end*/
+/*Client main page*/
+
+
+
+
+
+
+

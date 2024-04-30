@@ -1,0 +1,118 @@
+.job{
+    background-color: #f0f0f0;
+}
+
+.yourlastposts{
+    padding: 150px;
+    
+}
+
+.custom-container {
+    padding-left: 150px; /* Adjust padding if necessary */
+    padding-right: 150px; /* Adjust padding if necessary */
+    max-width: none; /* Removing max-width constraint */
+}
+
+.search-panel {
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+    
+  }
+  
+  .search-panel h2 {
+    margin-bottom: 15px;
+  }
+  
+  .search-section-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+  }
+  
+  .search-section-button:focus {
+    outline: none;
+  }
+  
+  .search-section-content {
+    padding: 10px;
+    border-bottom: 1px solid #e7e7e7;
+    transition: all 0.3s ease; /* Add transition effect */
+  }
+  
+  .jobs-search-div{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+
+  .search-section-dropdown {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out; /* Adjust time as needed */
+}
+
+.search-section-dropdown.open {
+    max-height: 500px; /* Adjust based on content size */
+    transition: max-height 0.5s ease-in; /* Adjust time as needed */
+}
+
+
+@media (max-width:769px){
+   
+ 
+ }
+ @media (max-width:1430px){
+  
+  .jobs-search .col-md-8 {
+    width: 100%;
+  } 
+  .jobs-search .col-md-4 {
+    width: 100%;
+  } 
+  .post{
+    width: 100% !important;
+  }
+  
+
+}
+@media (max-width:950px){
+  
+  .jobs-search .col-md-6 {
+    width: 100%;
+  } 
+  
+
+  .postsdiv{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.solidPurple {
+  /* or 'inline-block', depending on your layout */
+  color: #7e22ce;
+}
+
+/* Cursor pointer and hover effect for category buttons */
+.clickable {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clickable:hover {
+  background-color: #f0f0f0; /* Light grey background on hover, adjust color as needed */
+}
+
+/* Styling for the "No Posts Found" message */
+.no-posts-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #666; /* Dark grey text, adjust color as needed */
+}
