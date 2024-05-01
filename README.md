@@ -6,7 +6,7 @@ ServiceSphere is a cutting-edge online platform meticulously designed to redefin
 
 ServiceSphere is a robust platform designed to facilitate seamless interactions between freelancers, clients, and project teams across various industries. the platform simplifies the process of finding, hiring, and managing freelance talent for projects ranging from simple services to extensive project collaborations. This document provides an overview of the backend API endpoints that power the ServiceSphere platform, detailing the core functionalities and technologies used.
 
-![ServiceSpherePoster](https://github.com/merhanhesham/ServiceSphereFreelancingPlatform/assets/93659179/2e25856a-a887-4679-837c-0bd45f2ad1e4)
+![ServiceSpherePosterr](https://github.com/merhanhesham/ServiceSphereFreelancingPlatform/assets/93659179/26bd13c7-4ac1-45b5-99f7-a3f3b979f97b)
 
 ## Core Features
 
