@@ -56,6 +56,11 @@ Categories and Sub-Categories: Both freelancers and clients can browse through c
 ### Buggy (Error Handling)
 - **Error Simulation**: Endpoints for simulating common HTTP errors (NotFound, Server Error, BadRequest) for testing the platform's error handling capabilities.
 
+## ServiceSphere APIs
+![ss1](https://github.com/merhanhesham/ServiceSphereFreelancingPlatform/assets/93659179/95759c71-967b-416e-8084-a76b1c112354)
+![ss2](https://github.com/merhanhesham/ServiceSphereFreelancingPlatform/assets/93659179/e032cf7f-095a-4418-bcf4-943f1edde4ac)
+![ss3](https://github.com/merhanhesham/ServiceSphereFreelancingPlatform/assets/93659179/7a770455-946b-4781-8596-2accf00c7dc3)
+
 
 ## Technologies
 
